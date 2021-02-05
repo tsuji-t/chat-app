@@ -1,6 +1,10 @@
+/* 全体 */
+
 .wrapper{
   display: flex;
 }
+
+/* 左側全体*/
 
 .side-ber{
   height: 100vh;
@@ -8,22 +12,58 @@
   background-color: #253141;
 }
 
+/* 左側上*/
+
 .side-top{
   height: 100px;
-  background-color: #253141;
   padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
+
+.user-name a{
+  font-size:  16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.new-chatroom a{
+  padding: 14px ;
+  border: 1px solid lightblue;
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+/* 左側下 */
 
 .side-bottom{
   height: calc(100vh - 100px);
   background-color: #2f3e51;
   padding: 0 20px;
+  overflow: scroll;
 }
+
+.room-name{
+  margin: 20px 0 40px;
+}
+
+.room-link a{
+  color: white;
+  padding: 20px 0 40px;
+  text-decoration: none;
+}
+
+/* 右側全体 */
 
 .chat{
   width: calc(100vw - 300px);
   background-color: #ffffff;
 }
+
+/* 右側上 */
 
 .chat-top{
   height: 100px;
@@ -31,11 +71,15 @@
   padding: 0 40px;
 }
 
+/* 右側中 */
+
 .chat-middle{
   height: calc(100vh - 190px);
   background-color: #fafafa;
   padding: 46px 40px 0;
 }
+
+/* 右側下 */
 
 .chat-bottom{
   height: 90px;
