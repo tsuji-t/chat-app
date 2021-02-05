@@ -1,0 +1,177 @@
+/* 全体 */
+
+.wrapper{
+  display: flex;
+}
+
+/* 左側全体*/
+
+.side-ber{
+  height: 100vh;
+  width: 300px;
+  background-color: #253141;
+}
+
+/* 左側上*/
+
+.side-top{
+  height: 100px;
+  padding: 0 20px;
+  background-color: #253141;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-name a{
+  font-size:  16px;
+  color: #fafafa;
+  text-decoration: none;
+}
+
+.new-chatroom a{
+  padding: 14px ;
+  border: 1px solid lightblue;
+  font-size: 10px;
+  color: deepskyblue;
+  text-decoration: none;
+}
+
+/* 左側下 ルーム */
+
+.side-bottom{
+  height: calc(100vh - 100px);
+  background-color: #2f3e51;
+  padding: 0 20px;
+  overflow: scroll;
+}
+
+.room-name{
+  padding: 20px 0 40px;
+}
+
+.room-link a{
+  color: white;
+  text-decoration: none;
+}
+
+/* 右側全体 */
+
+.chat{
+  width: calc(100vw - 300px);
+  background-color: #ffffff;
+}
+
+/* 右側上 */
+
+.chat-top{
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.chat-overview{
+  font-size: 24px;
+  color:#333;
+  padding-top: 36px;
+}
+
+.end-button{
+  margin-top: 36px;
+}
+
+.end-button a{
+  padding: 20px;
+  border: 1px solid darkred;
+  color: darkred;
+  text-decoration: none;
+}
+
+/* 右側中 コメント欄 */
+
+.chat-middle{
+  height: calc(100vh - 190px);
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+  overflow: scroll;
+}
+
+.messages{
+  list-style: none;
+  margin: 10px 0 40px 0;
+}
+
+.user-dete{
+  display: flex;
+  list-style: none;
+}
+
+.message-user{
+  font-size: 16px;
+  color: #434a54;
+  padding-right: 10px;
+}
+
+.messsage-date{
+  font-size: 12px;
+  color: #999;
+}
+
+.message{
+  font-size: 14px;
+  color: #434a54;
+  margin-top: 10px;
+}
+
+
+/* 右側下 */
+
+.chat-bottom{
+  height: 90px;
+  background-color:#dddddd;
+  padding: 20px 40px;
+}
+
+.message-form{
+  display: flex;
+}
+
+.message-image{
+  width: 100%;
+  display: flex;
+  background-color: white;
+}
+
+.type-message{
+  height: 50px;
+  width: 100%;
+  padding-left: 10px;
+  background-color: white;
+  border: none;
+}
+
+.send{
+  height: 50px;
+  padding: 0 20px;
+  border: none;
+  margin-left: 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #38AEF0;
+}
+
+.form-image {
+  font-size: 12px;
+  background-color: lightblue;
+  color: white;
+  padding: 12px;
+  width: 60px;
+  margin: 5px 10px;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
