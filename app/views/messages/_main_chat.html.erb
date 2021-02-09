@@ -7,30 +7,7 @@
 </div>
 
 <div class= "chat-middle">
-  <ul class="messages">
-    <li>
-      <ul class="user-dete">
-        <li class="message-user">Tom
-        </li>
-        <li class="messsage-date">2020/3/31(wed) 12:43:30
-        </li>
-      </ul>
-    <li>
-    <li class="message">おはよう
-    </li>
-  </ul>
-  <ul class="messages">
-    <li>
-      <ul class="user-dete">
-        <li class="message-user">Tom
-        </li>
-        <li class="messsage-date">2020/3/31(wed) 12:47:30
-        </li>
-      </ul>
-    <li>
-    <li class="message">こんばんわ
-    </li>
-  </ul>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <%= form_with model: [@room, @message], class: 'chat-bottom', local: true do |f| %>
