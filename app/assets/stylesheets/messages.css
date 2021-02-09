@@ -130,12 +130,15 @@
 
 .chat-bottom{
   height: 90px;
-  background-color:#dddddd;
+  background-color: #DDDDDD;
   padding: 20px 40px;
+  display: flex;
 }
 
 .message-form{
   display: flex;
+  width: 100%;
+  background-color: white;
 }
 
 .message-image{
@@ -148,8 +151,8 @@
   height: 50px;
   width: 100%;
   padding-left: 10px;
-  background-color: white;
   border: none;
+  
 }
 
 .send{

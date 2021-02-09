@@ -33,7 +33,7 @@
   </ul>
 </div>
 
-<%= form_with model: [@room, @message], class: 'message-form', local: true do |f| %>
+<%= form_with model: [@room, @message], class: 'chat-bottom', local: true do |f| %>
   <div class="message-image">
     <%= f.text_field :content, class: 'type-message', placeholder: 'type a message' %>
     <label class="form-image">
