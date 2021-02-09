@@ -178,3 +178,9 @@
 .hidden {
   display: none;
 }
+
+/* 画像ボタンズレ防止 */
+
+.field_with_errors {
+  display: contents;
+}
